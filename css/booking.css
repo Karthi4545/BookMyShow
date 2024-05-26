@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    width: 70%;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.movie-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.movie-container select {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.showcase li {
+    display: flex;
+    align-items: center;
+}
+
+.showcase li small {
+    margin-left: 10px;
+}
+
+.screen {
+    background: #333;
+    height: 50px;
+    margin: 15px 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.seat {
+    background: #444451;
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.seat.selected {
+    background: #6feaf6;
+}
+
+.seat.occupied {
+    background: #ff0000;
+    pointer-events: none;
+}
+
+.seat:hover:not(.occupied) {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.booking1{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 600;
+    font-size: 17px;
+    background-color:rgb(238, 42, 42);
+    border-radius: 20px;
+    position: relative;
+    left: 420px;
+}
+.booking1:hover{
+    background-color: white;
+}
+.h3{
+    position: relative;
+    left: 400px;
+    color: green;
+}

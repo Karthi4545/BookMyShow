@@ -1,0 +1,471 @@
+  /* topbar start */
+.logo{
+    float: left;
+    margin-left: 50px;
+}
+.search1{
+    float: left;
+    width: 500px;
+    padding-left: 40px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.fa-search{
+    position: relative;
+    right: 500px;
+    color: gray;
+    top: 13px;
+    right: 440px;
+}
+.location{
+    float: left;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    top: 15px;
+    
+}
+.location1{
+    position: relative;
+    bottom: 65px;
+    left: 1150px
+}
+.login{
+    float: left;
+    position: relative;
+    bottom: 95px;
+    left: 1300px;
+    font-size: 20px;
+}
+/* Topbar end */
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+    /* NAVBAR START */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    bottom: 80px;
+}
+
+.navbar a {
+    color: rgb(86, 80, 80);
+    text-decoration: none;
+    /* padding: 8px 16px; */
+}
+
+.navbar-brand a {
+    font-size: 24px;
+    
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    padding: 0 10px;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+}
+  /* STAR MOVIE PAGE */
+  .star{
+    /* border: 2px solid black; */
+    height: 500px;
+    position: relative;
+    bottom: 80px;
+    overflow: hidden;
+}
+.images1{
+    position: relative;
+    left: 180px;
+    bottom: 520px;
+    width: 250px;
+    box-shadow: 10px 10px 25px rgb(198, 142, 142);
+}
+.content{
+    /* border: 2px solid black; */
+    position: relative;
+    bottom: 800px;
+    left: 500px;
+}
+.content > h1{
+    font-weight: 900;
+    color: white;
+}
+.rating{
+    /* border: 2px solid black; */
+    overflow: hidden;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    background-color:rgb(63, 58, 58);
+}
+.rating > i{
+    color: rgb(243, 25, 108);
+    font-size: 22px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.rating > h4{
+    float: left;
+    padding-right: 15px;
+    padding-left: 7px;
+    padding-top: 20px;
+    color: white;
+}
+.rating > button{
+    float: left;
+    background-color:white;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 17px;
+    margin-left: 80px;
+    padding: 5px;
+}
+.button1{
+    margin: 15px;
+    
+}
+.para{
+    font-weight: 700;
+    color:   white;
+}
+.button2 > button{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(243, 13, 90);
+    border-radius: 10px;
+    
+}
+.button2 > button:hover{
+    background-color: rgb(241, 93, 127);
+}
+.button2 > button > a:hover{
+    color: black;
+}
+.button2 > button > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+}
+.about{
+    position: relative;
+    bottom: 650px;
+    
+}
+.about > h3{
+    font-weight: 700;
+}
+.cast {
+    position: relative;
+    bottom: 600px;
+}
+.cast > h3{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.cast > .cast1{
+    float: left;
+}
+.cast > .cast1 > img{
+    border-radius: 50%;
+    height: 150px;
+}
+.cast > .cast1 > h4{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.cast > .cast1 > p{
+    padding-left: 20px;
+}
+
+.cast > .cast2{
+    float: left;
+    padding-left: 30px;
+}
+.cast > .cast2 > img{
+    border-radius: 50%;
+    height: 150px;
+}
+.cast > .cast2 > h4{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.cast > .cast2 > p{
+    padding-left: 20px;
+}
+.cast > .cast3{
+    float: left;
+    padding-left: 30px;
+}
+.cast > .cast3 > img{
+    border-radius: 50%;
+    height: 150px;
+}
+.cast > .cast3 > h4{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.cast > .cast3 > p{
+    padding-left: 20px;
+}
+.cast > .cast4{
+    float: left;
+    padding-left: 30px;
+}
+.cast > .cast4 > img{
+    border-radius: 50%;
+    height: 150px;
+}
+.cast > .cast4 > h4{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.cast > .cast4 > p{
+    padding-left: 20px;
+}
+/* FOOTER */
+.black-logo{
+    height: 70px;
+    width: 200px;
+    position: relative;
+    /* left: 600px; */
+    right: 250px;
+    bottom: 50px;
+    
+}
+.social-icons > a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+    position: relative;
+    /* left: 560px; */
+    right: 300px;
+    bottom: 20px;
+    
+}
+.social-icons > .facebook{
+    background-color: red;
+    border-radius: 50%;
+}
+.social-icons > .instagram{
+    background-color: red;
+    border-radius: 50%;
+}
+.social-icons > .twitter{
+    background-color: red;
+    border-radius: 50%;
+}
+.social-icons > .youtube{
+    background-color: red;
+    border-radius: 50%;
+}
+.social-icons > .linkedin{
+    background-color: red;
+    border-radius: 50%;
+}
+.social-icons > :hover{
+    background-color: beige;
+    color: black;
+}
+.footer{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(116, 116, 108);
+    position: relative;
+}
+.footer > .p1{
+    position: relative;
+    right: 470px;
+}
+
+@media screen and (max-width:900px) {
+    .images1{
+        position: relative;
+        left: 100px;
+        bottom: 520px;
+        width: 200px;
+        box-shadow: 10px 10px 25px rgb(198, 142, 142);
+    }
+    .content{
+        /* border: 2px solid black; */
+        position: relative;
+        bottom: 800px;
+        left: 400px;
+    }
+    .content > h1{
+        font-weight: 600;
+        color: white;
+    }
+    .rating{
+        /* border: 2px solid black; */
+        overflow: hidden;
+        height: 70px;
+        width: 300px;
+        border-radius: 10px;
+        background-color:rgb(63, 58, 58);
+    }
+    .rating > i{
+        color: rgb(243, 25, 108);
+        font-size: 22px;
+        float: left;
+        padding-right: 15px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    .rating > h4{
+        float: left;
+        padding-right: 15px;
+        padding-left: 7px;
+        padding-top: 20px;
+        color: white;
+    }
+    .rating > button{
+        float: left;
+        background-color:white;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 17px;
+        margin-left: 80px;
+        padding: 5px;
+    }
+    .button1{
+        margin: 15px;
+        
+    }
+    .para{
+        font-weight: 700;
+        color:   white;
+    }
+    .button2 > button{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(243, 13, 90);
+        border-radius: 10px;
+        
+    }
+    .button2 > button:hover{
+        background-color: rgb(241, 93, 127);
+    }
+    .button2 > button > a:hover{
+        color: black;
+    }
+    .button2 > button > a{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        
+    }
+}
+
+@media screen and (max-width:650px) {
+    .images1{
+        position: relative;
+        left: 60px;
+        bottom: 520px;
+        width: 200px;
+        box-shadow: 10px 10px 25px rgb(198, 142, 142);
+    }
+    .content{
+        /* border: 2px solid black; */
+        position: relative;
+        bottom: 800px;
+        left: 350px;
+    }
+    .content > h1{
+        font-weight: 600;
+        color: white;
+    }
+    .rating{
+        /* border: 2px solid black; */
+        overflow: hidden;
+        height: 70px;
+        width: 280px;
+        border-radius: 10px;
+        background-color:rgb(63, 58, 58);
+    }
+    .rating > i{
+        color: rgb(243, 25, 108);
+        font-size: 22px;
+        float: left;
+        padding-right: 15px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    .rating > h4{
+        float: left;
+        padding-right: 15px;
+        padding-left: 7px;
+        padding-top: 20px;
+        color: white;
+    }
+    .rating > button{
+        float: left;
+        background-color:white;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 17px;
+        margin-left: 80px;
+        padding: 5px;
+    }
+    .button1{
+        margin: 15px;
+        
+    }
+    .para{
+        font-weight: 700;
+        color:   white;
+    }
+    .button2 > button{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(243, 13, 90);
+        border-radius: 10px;
+        
+    }
+    .button2 > button:hover{
+        background-color: rgb(241, 93, 127);
+    }
+    .button2 > button > a:hover{
+        color: black;
+    }
+    .button2 > button > a{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        
+    }
+}
